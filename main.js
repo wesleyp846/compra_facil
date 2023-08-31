@@ -56,18 +56,17 @@ const catalogo = [
 ];
 
 for (const produtoCatalogo of catalogo){
-    const cartaoProduto = `<div id="card-produto-1">
+    const cardProduto = `<div class="border-2 border-sky-500 w-48 m-2" id="card-produto-${produtoCatalogo.id}">
 <img 
     src="./assets/img/${produtoCatalogo.imagem}" 
     alt="Produto-1" 
     style="height: 300px;"
 />
-<p>${produtoCatalogo.marca}</p>
+<p class="marca">${produtoCatalogo.marca}</p>
 <p>${produtoCatalogo.nome}</p>
 <p>${produtoCatalogo.preco}</p>
 <button>Adicionar</button>
 </div>`
 
-document.getElementById("container-produto").innerHTML += cartaoProduto
+document.getElementById("container-produto").innerHTML += cardProduto
 }
-
