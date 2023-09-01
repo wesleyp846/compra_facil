@@ -14,3 +14,4 @@
 2. Estilização com tailwind `https://tailwindcss.com/docs/installation`
 3. Icones Font Awesome `https://cdnjs.com/libraries/font-awesome` e `https://fontawesome.com/`
 4. Criação do carrinho em Js
+5. Evolução do CSS
