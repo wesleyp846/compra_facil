@@ -1,3 +1,5 @@
+# Projeto em pausa
+
 # Compra Facil
 
 ## No terminal 
